@@ -1,8 +1,8 @@
 {
-  "name": "io.cordova.hellocordova",
-  "displayName": "HelloCordova",
+  "name": "io.cordova.scanneringressoscursinhopes",
+  "displayName": "Sacanner Ingressos Cursinho PES",
   "version": "1.0.0",
-  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "description": "Scanner de ingressos da festa junina do Cursinho PES",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,8 +10,12 @@
   "keywords": [
     "ecosystem:cordova"
   ],
-  "author": "Apache Cordova Team",
-  "license": "Apache-2.0",
+  "author": "Roger Eliodoro Condras",
+  "license": "GPL-3.0-or-later",
+  "repository":{
+    "type": "git",
+    "url": "https://github.com/cursinhopes/scanner-ingressos/.git"
+  },
   "devDependencies": {
     "com.virtuoworks.cordova-plugin-canvascamera": "git+https://github.com/VirtuoWorks/CanvasCameraPlugin.git",
     "cordova-android": "^9.0.0",
